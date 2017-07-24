@@ -1,0 +1,8 @@
+User-agent: * 
+Disallow: /search
+Disallow: /member/
+Disallow: /admin_admin
+Disallow: /goto
+Disallow: /css/
+Disallow: /test
+Sitemap: http://localhost/codeIgniter_dazhe/sitemap.xml

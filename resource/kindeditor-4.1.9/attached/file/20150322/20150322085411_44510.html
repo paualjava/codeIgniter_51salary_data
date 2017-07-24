@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="author" content="" />
+        <meta name="description" content="" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>我擦</title> 
+        <link rel="stylesheet" href="build/css/all.css" />
+    </head>
+	<script type="text/javascript" src="build/js/lib/sea-zepto.js"></script>
+	<script type="text/javascript" src="build/js/all.js"></script>
+    <body class="index">
+        <div id="index" class="wrapper">
+            <header>
+                <h1 data-fadein="1" style="opacity:0;">唯品会</h1>
+                <h2 data-fadein="1" style="opacity:0;">
+                	<span class="i">我</span>
+					<span class="wipe">擦</span>
+					<span class="football">football</span>
+				</h2>
+            </header>
+            <article class="index_info" >
+                <section data-fadein="1" data-node="start_btn" class="op" style="opacity:0;height:43px;padding:0px;">
+					<canvas style="display:block;"></canvas>
+                </section>
+                <nav data-fadein="1" style="opacity:0;">
+                    <a href="javascript:;" data-node="introduce_btn" class="btn_rule">游戏规则</a>
+                </nav>
+            </article>
+        </div>
+		<div id="select_model" class="wrapper" style="display:none;">
+		</div>
+		<div id="wipe" class="wrapper" style="display:none;">
+		</div>
+		<div id="introduce" class="wrapper" style="display:none;">
+		</div>
+		<article class="attention" style="display:none;">'+
+		    <div class="wrap">
+		        <section class="tips">
+		            <span class="arrow"></span>
+		            <p class="content">点击右上角</p>
+		        </section>
+		        <section class="attention_info">
+		            <dl class="prize watch">
+		                <dt><img src="build/images/watch.png"></dt>
+		                <dd>5280</dd>
+		            </dl>
+		            <dl class="prize necklace">
+		                <dt><img src="build/images/necklace.png"></dt>
+		                <dd>2059</dd>
+		            </dl>
+		        </section>
+		    </div>
+		</article>
+    </body>
+	<script type="text/javascript">
+		$('.wrapper').height($(window).height());
+		$('.wrapper').width($(window).width());
+		seajs.config({
+			base: './build/js/'
+		});
+		seajs.use('all');
+	</script>
+	
+</html>

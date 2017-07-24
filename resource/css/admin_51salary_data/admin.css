@@ -1,0 +1,90 @@
+ul,li{margin:0;padding:0;}
+body{margin:0;text-align:left;width:99%;font-size:12px;font-family:"宋体";line-height:21px;}
+td{font-size:12px;font-family:"宋体";}
+a:link,a:visited{color:#000;text-decoration:none;}
+a:hover,a:active{color:#000;text-decoration:underline;}
+a.numpage{padding:0 7px;background:url(../images/linkgap.gif) no-repeat left 0;color:#f47429;}
+a.presentpage{color:#414141;}
+/*input{border:solid 1px #ccc;}
+*/img{border:0;}
+.require{color:#f00;}
+.top{background:url(../../images/admin_51salary_data/topbglight.gif) no-repeat scroll right 0 #6d4e81}
+/**右边table**/#main{border:solid 1px #fff;text-align:left;}
+#main tr{padding:3px;}
+#form_table{border:solid 1px #fff;text-align:left;margin:10px;}
+#form_table tr{padding:2px;}
+.admin_button{}
+#bottom_ul li{float:left;width:100px;height:24px;margin:0 0 6px 0;}
+firstpage,.prepage,.nextpage,.lastpage{width:13px; background:#e7e7e7;}
+.tr_gray {color:#aaa;}
+h1,h2,h3,h4,h5,h6,p,form,dl,dt,dd,ul,ol,li,input{margin:0;padding:0;list-style:none outside}
+a:hover, a:active {text-decoration:underline;color:#000000;}
+.red:link, .red:visited {text-decoration:none;color:#ed1b23;}
+.red:hover, .red:active {text-decoration:underline;color:#ed1b23;}
+.green:link, .green:visited {text-decoration:none;color:#00a650;}
+.black:link, .black:visited {color:#000;text-decoration: none;line-height:24px;}
+.black:hover, .black:active {color:#f00;text-decoration: underline;line-height:24px;}
+.menu1 {padding:8px 10px 10px 36px;color:#fff}
+#left {width:165px;text-align:right;background-color:#d5d5d5;color:#1a5499;font-size:12px;}
+.item_head {background-color:#b4a69d;width:165px;height:23px;margin:0 0 5px 0;}
+.item_head_title {padding:5px 8px 0 0;cursor:pointer;}
+.item_child {height:18px;text-align:left;padding:4px 0 0 20px;border-bottom:solid 1px #ddd;cursor:pointer;color:#000;background:url(resource/images/icon_1.gif) no-repeat;}
+.item_style:link, .item_style:visited {text-decoration:none;color:#000;}
+.item_style:hover, .item_style:active {text-decoration:none;color:#faec84;}
+/************************/#sidecontent {background:#fff;width:135px;position:absolute;left:0;color:#4e6a81;margin-top:4px;border-top:1px solid #ccc;overflow:hidden;overflow-y:auto;}
+#sidecontent a {color:#000;text-decoration:none;}
+#sidecontent a.cur {background:#4d5457;color:#fff;font-weight:700;}
+#sidecontent a.cur2 {background:#5d6467;color:#fff;font-weight:700;}
+#submenu_goods .section.cur {background:url(../images/leftmenutitle.gif) repeat-x right 0;}
+.g-level-1 {color:#369;padding:3px 0;border-top:1px solid #efefef;border-bottom:1px solid #ccc;display:block;padding-left:5px;background:#e2e2e2;}
+.g-level-1 .title {background:url(../images/sysicon.gif) no-repeat 0 -838px;_background:url(../images/sysicon.gif) no-repeat 0 -840px;padding-left:13px;color:#369;}
+.g-level-1-withchild {color:#888;}
+.g-level-2 {border-left:1px solid #bec6ce;border-bottom:1px solid #fff;background:#fff;}
+.g-level-2 a {display:block;padding:1px 1px 1px 19px;margin:0;border-bottom:1px solid #efefef;}
+.g-level-2 a:hover {background:#ffffd4;}
+.g-menu-sec .g-level-1 {padding:3px 0 3px 5px;border-left:1px solid #bec6ce;border-right:1px solid #fff;background:#efefef;}
+.g-menu-sec .g-level-1:hover {background:#efefef;}
+.g-menu-sec .g-level-2 {border:0;border-left:1px solid #bec6ce;background:#fff;}
+.imgbundle {background-image: url("../../images/admin_51salary_data/button_pic.gif");background-repeat: no-repeat;margin-right: 2px;vertical-align: middle;}
+.finder-icon {display: block;height: 24px;overflow: hidden;width: 50px;}
+.top_nav {background: url("../../images/admin_51salary_data/finder_bar_bg.gif") no-repeat scroll right 0 transparent;height: 50px;padding-right: 5px;}
+.t_button{float:left; display:block;}
+.t_button_r{float:right; display:block;margin:0 20px 0 0;}
+.t-img{padding:4px 0 2px 0; text-align:center;width:90px; display:block;}
+.t-img a{width:90px; display:block; height:22px;}
+.t-text{ color:#000;text-align:center;width:90px; display:block;}
+.t-text a{width:90px; height:21px; display:block;}
+.submitbtn{background: url("../../images/admin_51salary_data/button.gif") no-repeat scroll right 0 transparent;width:100px; height:28px;color:#fff; border:none;padding:0 0 0 0 !important;padding:4px 0 0 0}
+.error-box {background-color: #ffffd0;background-position: -1004px -115px;background-repeat: no-repeat;border: 1px solid #ffad77;color: #ff0000;line-height: 1.6;margin: 0 0 15px;padding: 5px 10px 5px 25px;width: 248px;}
+.error-box{background-image: url("../../images/bg.png");}
+.top_right{color:#fff;}
+.top_right a{color:#fff;}
+.table_class{background:#ccc;margin:5px;width:100%;}
+.table_class td{background:#fff;padding:4px;}
+.t_button2{ display:block;float:left;margin:15px 0 0 40px;font-size:14px;}
+/*pagenation*/.pagenation {background-color: #f7f7f7;border: 1px solid #cad9ea;height: 24px;line-height: 26px;margin: 5px 0 10px 8px;padding:0 0 0 6px;overflow: hidden;}
+.pagenation a{margin:0 4px 0 4px;}
+.pagenation strong{margin:0 4px 0 4px;color:#f00;}
+.pagenation2 {margin:3px; text-align:right;color:#333;clear:both;float:right;padding:0 10px 10px 0;}
+.pagenation2 a {border-right: #eee 1px solid; padding-right: 5px; border-top: #eee 1px solid; padding-left:5px; padding-bottom: 2px; margin: 0px; border-left: #eee 1px solid; color: #b42503; padding-top: 2px; border-bottom: #eee 1px solid; text-decoration: none}
+.pagenation2 a:hover {border-right: #999 1px solid; border-top: #999 1px solid; border-left: #999 1px solid;  border-bottom: #999 1px solid}
+.pagenation2 a:active {border-right: #999 1px solid; border-top: #999 1px solid; border-left: #999 1px solid;border-bottom: #999 1px solid}
+.pagenation2 .sel {border-right: #b42503 1px solid; padding-right: 5px; border-top: #b42503 1px solid; padding-left: 5px; font-weight: bold; padding-bottom: 2px; margin: 2px; border-left: #b42503 1px solid; color: #fff; padding-top: 2px; border-bottom: #b42503 1px solid; background-color: #b42503}
+.pagenation2 .disabled {border-right: #eee 1px solid; padding-right: 5px; border-top: #eee 1px solid; padding-left: 5px; padding-bottom: 2px; margin: 2px; border-left: #eee 1px solid; color: #ddd; padding-top: 2px; border-bottom: #eee 1px solid}
+.login_body{background:url(../../images/admin_51salary_data/loginback.jpg) top center  no-repeat #000000;font-family:verdana,arial,helvetica,sans-serif; color:white;text-align:center;font-size:12px;}
+.module_table input{width:83px;}
+.cate_ajax_2{width:170px;float:left;}
+.step1 input[type="text"]{width:80px;}
+.form-wizard select{width:80px; height:25px;}
+.icon_column_td{width:15px;}
+.icon_column{width:15px;height:15px;display:block;}
+.icon_1{background:url(../../images/admin_51salary_data/icon_1.gif) no-repeat;}
+.icon_2{background:url(../../images/admin_51salary_data/icon_2.gif) no-repeat;}
+.icon_3{background:url(../../images/admin_51salary_data/icon_3.gif) no-repeat;}
+.icon_4{background:url(../../images/admin_51salary_data/icon_4.gif) no-repeat;}
+.icon_5{background:url(../../images/admin_51salary_data/icon_5.gif) no-repeat;}
+.icon_6{background:url(../../images/admin_51salary_data/icon_6.gif) no-repeat;}
+
+ul>li.satgreen, .label-satgreen {
+background: #56af45;}
+.table tr th,.table tr td {padding: 4px 4px 4px 4px;}

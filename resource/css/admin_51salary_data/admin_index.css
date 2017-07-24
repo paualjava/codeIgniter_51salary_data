@@ -1,0 +1,34 @@
+*{margin:0;padding:0;}
+body {font:12px/1.8 Verdana,Arial,Helvetica,sans-serif; margin:0; color:#000; height:100%;}
+ul,li {list-style:none;list-style-type: none;}
+table{background-color:#fff}
+tr {line-height:180%;font-size: 12px;}
+form {margin:0;} textarea {overflow:auto;}
+img {border:0;}
+.left{float:left}
+.right {float:right;}
+.clear {clear:both;}
+/***admin2***/
+.admin2{background-image: url(../../images/admin_51salary_data/admin2_b.jpg);}
+#container{margin: 0 auto;width: 1003px;}
+#header{width: 1003px;height: 219px;background-image: url(../../images/admin_51salary_data/admin2_login_1.jpg);}
+#menu{width: 1003px;height: 18px;background-image: url(../../images/admin_51salary_data/admin2_l_02.jpg);}
+#mainContent{width: 1003px;height: 209px;background-image: url(../../images/admin_51salary_data/admin2_l_03.jpg);}
+#mainoverflow{height: 226px;overflow: hidden;width: 560px;}
+#sidebar{float: left;width: 200px;height: 209px;}
+#sidebar2{float: right;width: 200px;height: 209px;}
+#content{margin: 0 205px !important;margin: 0 202px;height: 209px;overflow: hidden;}
+#footera{width: 1003px;height: 17px;background-image: url(../../images/admin_51salary_data/admin2_l_04.jpg);}
+#footerb{width: 1003px;height: 138px;background-image: url(../../images/admin_51salary_data/admin2_l_05.jpg);}
+.input_01{height: 20px;border: 1px solid #b2b2b2;padding: 1px;width: 183px;background: transparent;}
+btn1,.btn2{height: 20px;border: 1px solid #b2b2b2;padding: 1px;width: 183px;background: transparent;padding: 0 0 0 20px;}
+.btn1{height: 20px;border: 1px solid #b2b2b2;padding: 1px;width: 183px;background: transparent;padding: 0 0 0 20px;}
+.btn2{height: 20px;border: 1px solid #1675B7;padding: 1px;width: 183px;background: transparent;padding: 0 0 0 20px;}
+.btn31{height: 18px;border: 1px solid #b2b2b2;padding: 1px;width: 83px;}
+btn31,.btn32{height: 18px;border: 1px solid #1675B7;padding: 1px;width: 83px;}
+.inputbox{padding-left:180px;+padding-left:33px;padding-top:35px;+padding-top:35px;width:560px;overflow:hidden;}
+.inputbox li{text-align: left;clear: both;zoom: 1;padding-left: 62px;padding-top: 0px;+padding-top: 0px;height: 37px;}
+.inputbox .ibl{float:left;width: 125px;padding-right:2px;padding-top: 0px;color: #555555;text-align: right;}
+.inputbox .ibr{float:left;padding-top:10px;+padding-top:8px;color: #555555;text-align: left;}
+
+/***end admin2***/

@@ -1,0 +1,158 @@
+@charset "utf-8";
+.index_nav {
+	table-layout:fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:5px;}
+.index_nav td {
+	text-align:center;
+	color:#fff;}
+.index_nav td.td01 a { background-color:#1fbbdf;}
+.index_nav td.td02 a { background-color:#f4a230;}
+.index_nav td.td03 a { background-color:#f95b6a;}
+.index_nav td.td04 a { background-color:#546bde;}
+.index_nav td.td05 a { background-color:#57cd5f;}
+.index_nav td.td06 a { background-color:#f16223;}
+.index_nav td.td01 a { background-image:url(../images/index_ico01.png);}
+.index_nav td.td02 a { background-image:url(../images/index_ico02.png);}
+.index_nav td.td03 a { background-image:url(../images/index_ico03.png);}
+.index_nav td.td04 a { background-image:url(../images/index_ico04.png);}
+.index_nav td.td05 a { background-image:url(../images/index_ico05.png);}
+.index_nav td.td06 a { background-image:url(../images/index_ico06.png);}
+.index_nav td a {
+	right:-500%;
+	display:block;
+	height:35px;
+	width:100%;
+	font-size:1.1em;
+	overflow:hidden;
+	color:#fff;
+	padding:70px 0 0 0;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	background-size:auto 40px;}
+.index_nav td a.a1 {
+	height:105px;
+	padding:0;}
+.index_nav td a.a1 img {width:100%; min-height:100%; min-width:210px;}
+.index_nav td a.a1 span {
+	background: url(../images/darkbg.png) repeat;
+	display: inline-block;
+	padding:5px;
+	color:#fff;
+	position:absolute;
+	right:0;
+	bottom:0;
+	}
+.index_case {
+	table-layout:fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:5px;
+	}
+.index_tit {font-size:1.3em; line-height:30px;color:#000;font-weight:400;border-bottom:1px solid #e5e5e5;}
+.index_tit span{font-size:0.8em; font-weight:400;color:#7b7b7b; margin-left:10px;}
+.index_case td {padding:5px 0 0 0;vertical-align:top;}
+.index_case td a {
+	display:block;
+	width:100%;
+	overflow:hidden;
+	text-align:center;}
+.index_case td a img {width:100%;}
+.index_case td a span {
+	position:absolute;
+	left:0;
+	bottom:0;
+	color:#fff;
+	background: url(../images/darkbg.png) repeat;
+	display:block;
+	width:98%;
+	font-size:0.8em;
+	padding:2px 1%;}
+.index_news {
+	table-layout:fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:5px;
+	}
+.index_news td {padding:5px 0 0 0; min-height:78px;vertical-align:top;}
+.index_news td a {
+	display:block;
+	width:100%;
+	padding:0 0 0 0;}
+.index_news td a.a1 {left:-300%;}
+.index_news td a.a2 {left:300%;}
+.index_news td a img { max-height:78px;border:1px solid #ddd;}
+.index_news td a p {
+	width:28%;
+	float:left;
+	}
+.index_news td a span {
+	color:#7b7b7b;
+	font-size:0.8em;
+	position:absolute;
+	left:30%;
+	top:0;}
+.index_news td a h3 {
+	padding-top:20px;
+	font-weight:400;
+	line-height:15px;
+	height:30px;
+	overflow:hidden;
+	font-size:0.8em;
+	float:right;
+	width:70%;}
+.index_team {
+	table-layout:fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:5px;}
+.index_team td.td00 {padding:0; height:1px; line-height:1px; font-size:0em;}
+.index_team td a {
+	display:block;
+	height:30px;
+	width:100%;
+	font-size:1.1em;
+	overflow:hidden;
+	color:#fff;
+	padding:75px 0 0 0;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	background-size:auto 45px;}
+.index_team td a.a1 {left:-400%;top:-300%;
+	z-index:10;
+	padding:0;
+	height:215px;}
+.index_team td a.a2 {left:400%;top:-300%;}
+.index_team td a.a3 {left:400%;top:-200%;}
+.index_team td a.a4 {left:400%;top:200%;}
+.index_team td a.a5 {left:400%;top:300%;}
+.index_team td a.a1 img {width:100%; min-height:100%; min-width:215px;}
+.index_team td.td01 a { background-image:url(../images/team_ico01.png);}
+.index_team td.td02 a { background-image:url(../images/team_ico02.png);}
+.index_team td.td03 a { background-image:url(../images/team_ico03.png);}
+.index_team td.td04 a { background-image:url(../images/team_ico04.png);}
+.index_team td.td01 a { background-color:#00b5dc;}
+.index_team td.td02 a { background-color:#fb5a4a;}
+.index_team td.td03 a { background-color:#fa9f00;}
+.index_team td.td04 a { background-color:#6ab259;}
+.index_team .index_tit {border:none;}
+.index_adv {
+	table-layout:fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:5px;
+	}
+.index_adv td {padding:15px 0 0 0; vertical-align:top;}
+.index_adv td a {
+	left:600%;
+	display:block;
+	width:100%;
+	line-height:15px;
+	text-align:center;
+	font-size:0.8em;}
+.index_adv td a p {
+	margin-top:10px;
+	}

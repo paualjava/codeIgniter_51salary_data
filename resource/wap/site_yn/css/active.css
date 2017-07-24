@@ -1,0 +1,181 @@
+/* 放大后缩小 */
+
+@keyframes navup {
+	0% {top:0px;}
+	50% {top:-20px;}
+	75% {top:10px;}
+	100% {top:0px;}
+}
+
+@-webkit-keyframes navup {
+	0% {top:0px;}
+	50% {top:-20px;}
+	75% {top:10px;}
+	100% {top:0px;}
+}
+
+@-moz-keyframes navup {
+	0% {top:0px;}
+	50% {top:-20px;}
+	75% {top:10px;}
+	100% {top:0px;}
+}
+
+@-o-keyframes navup {
+	0% {top:0px;}
+	50% {top:-20px;}
+	75% {top:10px;}
+	100% {top:0px;}
+}
+
+@-ms-keyframes navup {
+	0% {top:0px;}
+	50% {top:-20px;}
+	75% {top:10px;}
+	100% {top:0px;}
+}
+
+/* 90度翻转 */
+.route01, .route02, .route03, .route04, .route05, .route06, .route07, .route08, .route09, .route10 {
+	-webkit-transform: rotateY(90deg);
+	-moz-transform: rotateY(90deg);
+	-o-transform: rotateY(90deg);
+	-ms-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+}
+.route01 {
+	-webkit-transition: -webkit-transform .3s ease-out .2s;
+	-moz-transition: -moz-transform .3s ease-out .2s;
+	-o-transition: -o-transform .3s ease-out .2s;
+	-ms-transition: -ms-transform .3s ease-out .2s;
+	transition: transform .3s ease-out .2s
+}
+.route02 {
+	-webkit-transition: -webkit-transform .3s ease-out .4s;
+	-moz-transition: -moz-transform .3s ease-out .4s;
+	-o-transition: -o-transform .3s ease-out .4s;
+	-ms-transition: -ms-transform .3s ease-out .4s;
+	transition: transform .3s ease-out .4s
+}
+.route03 {
+	-webkit-transition: -webkit-transform .3s ease-out .6s;
+	-moz-transition: -moz-transform .3s ease-out .6s;
+	-o-transition: -o-transform .3s ease-out .6s;
+	-ms-transition: -ms-transform .3s ease-out .6s;
+	transition: transform .3s ease-out .6s
+}
+.route04 {
+	-webkit-transition: -webkit-transform .3s ease-out .8s;
+	-moz-transition: -moz-transform .3s ease-out .8s;
+	-o-transition: -o-transform .3s ease-out .8s;
+	-ms-transition: -ms-transform .3s ease-out .8s;
+	transition: transform .3s ease-out .8s
+}
+.route05 {
+	-webkit-transition: -webkit-transform .3s ease-out 1s;
+	-moz-transition: -moz-transform .3s ease-out 1s;
+	-o-transition: -o-transform .3s ease-out 1s;
+	-ms-transition: -ms-transform .3s ease-out 1s;
+	transition: transform .3s ease-out 1s
+}
+.route06 {
+	-webkit-transition: -webkit-transform .3s ease-out 1.2s;
+	-moz-transition: -moz-transform .3s ease-out 1.2s;
+	-o-transition: -o-transform .3s ease-out 1.2s;
+	-ms-transition: -ms-transform .3s ease-out 1.2s;
+	transition: transform .3s ease-out 1.2s
+}
+.route07 {
+	-webkit-transition: -webkit-transform .3s ease-out 1.4s;
+	-moz-transition: -moz-transform .3s ease-out 1.4s;
+	-o-transition: -o-transform .3s ease-out 1.4s;
+	-ms-transition: -ms-transform .3s ease-out 1.4s;
+	transition: transform .3s ease-out 1.4s
+}
+.route08 {
+	-webkit-transition: -webkit-transform .3s ease-out 1.6s;
+	-moz-transition: -moz-transform .3s ease-out 1.6s;
+	-o-transition: -o-transform .3s ease-out 1.6s;
+	-ms-transition: -ms-transform .3s ease-out 1.6s;
+	transition: transform .3s ease-out 1.6s
+}
+.route09 {
+	-webkit-transition: -webkit-transform .3s ease-out 1.8s;
+	-moz-transition: -moz-transform .3s ease-out 1.8s;
+	-o-transition: -o-transform .3s ease-out 1.8s;
+	-ms-transition: -ms-transform .3s ease-out 1.8s;
+	transition: transform .3s ease-out 1.8s
+}
+.route10 {
+	-webkit-transition: -webkit-transform .3s ease-out 2s;
+	-moz-transition: -moz-transform .3s ease-out 2s;
+	-o-transition: -o-transform .3s ease-out 2s;
+	-ms-transition: -ms-transform .3s ease-out 2s;
+	transition: transform .3s ease-out 2s
+}
+.route {
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+/* 左右插入 */
+.top200 {
+	-webkit-transform:translate(0,200%);
+	-moz-transform:translate(0,200%);
+	-o-transform:translate(0,200%);
+	-ms-transform:translate(0,200%);
+	transform:translate(0,200%);}
+.left400 {
+	-webkit-transform:translate(400%,0);
+	-moz-transform:translate(400%,0);
+	-o-transform:translate(400%,0);
+	-ms-transform:translate(400%,0);
+	transform:translate(400%,0);}
+.left-400 {
+	-webkit-transform:translate(-400%,0);
+	-moz-transform:translate(-400%,0);
+	-o-transform:translate(-400%,0);
+	-ms-transform:translate(-400%,0);
+	transform:translate(-400%,0);}
+.leftgo01 {
+	-webkit-transition: -webkit-transform .5s ease-out .2s;
+	-moz-transition: -moz-transform .5s ease-out .2s;
+	-o-transition: -o-transform .5s ease-out .2s;
+	-ms-transition: -ms-transform .5s ease-out .2s;
+	transition: transform .5s ease-out .2s}
+.leftgo02 {
+	-webkit-transition: -webkit-transform .5s ease-out .4s;
+	-moz-transition: -moz-transform .5s ease-out .4s;
+	-o-transition: -o-transform .5s ease-out .4s;
+	-ms-transition: -ms-transform .5s ease-out .4s;
+	transition: transform .5s ease-out .4s}
+.leftgo03 {
+	-webkit-transition: -webkit-transform .5s ease-out .6s;
+	-moz-transition: -moz-transform .5s ease-out .6s;
+	-o-transition: -o-transform .5s ease-out .6s;
+	-ms-transition: -ms-transform .5s ease-out .6s;
+	transition: transform .5s ease-out .6s}
+.leftgo04 {
+	-webkit-transition: -webkit-transform .5s ease-out .8s;
+	-moz-transition: -moz-transform .5s ease-out .8s;
+	-o-transition: -o-transform .5s ease-out .8s;
+	-ms-transition: -ms-transform .5s ease-out .8s;
+	transition: transform .5s ease-out .8s}
+.leftgo05 {
+	-webkit-transition: -webkit-transform .5s ease-out 1s;
+	-moz-transition: -moz-transform .5s ease-out 1s;
+	-o-transition: -o-transform .5s ease-out 1s;
+	-ms-transition: -ms-transform .5s ease-out 1s;
+	transition: transform .5s ease-out 1s}
+.leftgo {
+	-webkit-transform:translate(0,0);
+	-moz-transform:translate(0,0);
+	-o-transform:translate(0,0);
+	-ms-transform:translate(0,0);
+	transform:translate(0,0);}
+	
+/* 下方出现 */
+

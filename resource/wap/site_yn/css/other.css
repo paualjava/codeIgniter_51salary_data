@@ -1,0 +1,52 @@
+.custom_menu .box a{float:left}
+.custom_main p{line-height:25px;font-size:16px;}
+
+.content_page {
+	width:400px;
+	margin:0 auto 8px;
+	background:#fff;
+}
+.content_page menu {
+	float:right;
+	margin-right:50px;
+	_width:400px;
+	_margin-right:0px;
+	padding:15px 10px 0 1px;}
+.content_page a {
+	display: inline-block;
+	line-height:20px;
+	font-size:16px;
+	color:#a8a8a8;
+	border:1px solid #ddd;
+	padding:5px 8px;
+	float:left;
+	margin-left:3px;
+}
+.content_page span {
+	display: inline-block;
+	line-height:20px;
+	font-size:16px;
+	color:#a8a8a8;
+	border:1px solid #ddd;
+	padding:5px 10px;
+	float:left;
+	margin-left:5px;
+}
+.content_page a:hover {
+	color:#fff;
+	background:#fe3600;}
+.content_page a.sel {
+	color:#fff;
+	background:#fe3600;}
+.content_page a.a1 {
+	height:20px;
+	width:10px;
+	background:url(../images/page.png) no-repeat 7px 4px;}
+.content_page a.a1:hover {
+	background:#fe3600 url(../images/page.png) no-repeat -49px 4px;}
+.content_page a.a2 {
+	height:20px;
+	width:10px;
+	background:url(../images/page.png) no-repeat 9px -45px;}
+.content_page a.a2:hover {
+	background:#fe3600 url(../images/page.png) no-repeat -47px -45px;}
