@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Maison Neue Book';
+    src: url('../other/ZVFhZnFzdFcAByuSQRiYZhJLoPj1XNHuOh9Pb8fb4YTpe4kY655AO4xlJ+405jSkAUSYCbBogPxhIw.eot');
+    src: url('../other/ZVFhZnFzdFcAByuSQRiYZhJLoPj1XNHuOh9Pb8fb4YTpe4kY655AO4xlJ+405jSkAUSYCbBogPxhIw.eot?') format('embedded-opentype'),
+    url('../other/ZVFhZnFzdFcAByuSQRiYZhJLoPj1XNHuOh9Pb8fb4YTpe4kY655AO4xlJ+405jSkAUSYCbBogPxhIw.woff') format('woff'),
+    url('../other/ZVFhZnFzdFcAByuSQRiYZhJLoPj1XNHuOh9Pb8fb4YTpe4kY655AO4xlJ+405jSkAUSYCbBogPxhIw.ttf') format('opentype'),
+    url('../other/ZVFhZnFzdFcAByuSQRiYZhJLoPj1XNHuOh9Pb8fb4YTpe4kY655AO4xlJ+405jSkAUSYCbBogPxhIw.svg#5856') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Maison Neue Bold';
+    src: url('../other/UykIQL+cjfh3gfbAQ.eot');
+    src: url('../other/UykIQL+cjfh3gfbAQ.eot?') format('embedded-opentype'),
+    url('../other/UykIQL+cjfh3gfbAQ.woff') format('woff'),
+    url('../other/UykIQL+cjfh3gfbAQ.ttf') format('opentype'),
+    url('../other/UykIQL+cjfh3gfbAQ.svg#5851') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

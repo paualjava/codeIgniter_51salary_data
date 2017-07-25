@@ -8,7 +8,7 @@
   <div class="box-content">
     <div class="row-fluid">
       <div class="span12 control-group">
-       <div class="span5 pull-left"><?php if(role("about_us_add")){?><a class="btn" href="<?php echo $admin_url;?>about_us_add"><i class="icon-plus"></i>添加关于我们</a><?php }?>  <a class="btn" href="javascript:location.reload()"><i class="icon-refresh"></i>刷新</a> <?php if(role("about_us_del")){?><a class="btn" href="javascript:delete_all('<?php echo $admin_url;?>about_us/delete_all/')"><i class="icon-trash"></i>批量删除</a><?php }?>  <a class="btn" href="<?php echo $admin_url;?>about_us/export_excel"><i class="icon-share"></i>导出Excel</a> </div>
+       <div class="span5 pull-left"><?php if(role("about_us_add")){?><a class="btn" href="<?php echo $admin_url;?>about_us_add"><i class="icon-plus"></i>添加关于我们</a><?php }?>  <a class="btn" href="javascript:location.reload()"><i class="icon-refresh"></i>刷新</a> <?php if(role("about_us_del")){?><a class="btn" href="javascript:delete_all('<?php echo $admin_url;?>about_us/delete_all/')"><i class="icon-trash"></i>批量删除</a><?php }?></div>
        <div class="span7 pull-right">
           <form name="filter" method="get" action="<?php echo $admin_url;?>about_us" style="text-align:right;">
             <input type="text" name="keyword" id="keyword" value="<?php echo @$search_keyword;?>" class="input-large ui-wizard-content ui-helper-reset ui-state-default valid" data-rule-required="true" placeholder="请输入关键词">

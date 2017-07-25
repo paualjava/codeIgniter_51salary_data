@@ -42,7 +42,7 @@
   </ul>
 </li>
 <?php }?>
-<li>
+<li style="display:none">
   <iframe frameborder=0></iframe>
   <a href="<?php echo $admin_url;?>setting_wap" class="top_class" target="main"><span>手机设置<font class="enarr">&nbsp;</font></span></a>
   <ul class="dmenu">

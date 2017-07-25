@@ -3,7 +3,6 @@ class page_info extends CI_Controller {
 	private $table_name="page_info";
 	function index()
 	{
-		wap_link();
 		$data=array();
 		$page_left=array();
 		$this->load->database();
@@ -27,6 +26,6 @@ class page_info extends CI_Controller {
 		$data['page_left']=$page_left;
 		$data['current']=$id;
 		$data['page_info']=$page_info;
-		show("page_info",$data);
+		show("page_info",$data,0);
 	}
 }

@@ -1,0 +1,8 @@
+/*IE specific*/
+#page .circle {behavior:url(../other/PIE.htc);}
+#page .sections {background-position:center top;overflow:hidden;width:100%}
+#header {background: transparent;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33FFFFFF,endColorstr=#33FFFFFF)"; /* IE8 */    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33FFFFFF,endColorstr=#33FFFFFF);   /* IE6 & 7 */      zoom: 1;}
+#header:hover, .scrolling #header {background: transparent;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5FFFFFF,endColorstr=#E5FFFFFF)"; /* IE8 */    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5FFFFFF,endColorstr=#E5FFFFFF);   /* IE6 & 7 */      zoom: 1;}
+#page .project-box.blue-scheme .circle {background: #0A2240;    zoom: 1;}
+#page .project-box.red-scheme .circle {background: #FF4539;  zoom: 1;}
+#page .project-box.cream-scheme .circle, #page .project-box.blue-scheme .circle:hover {background:#FFF0C9;  zoom: 1;}
